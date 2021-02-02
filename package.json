@@ -1,0 +1,28 @@
+{
+  "name": "@persistr/cli",
+  "version": "4.0.0",
+  "description": "CLI for interacting with Persistr Server",
+  "main": "./cli",
+  "author": "Sasa Djolic <sasa.djolic@gmail.com> (https://www.linkedin.com/in/sasadjolic/)",
+  "license": "GPL-3.0-only",
+  "keywords": [
+    "persistr",
+    "cli"
+  ],
+  "bin": {
+    "persistr": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/persistr/cli.git"
+  },
+  "dependencies": {
+    "@persistr/clif": "^1.7.0",
+    "@persistr/clif-plugin-json5": "^1.1.0",
+    "@persistr/clif-plugin-persistr": "^1.3.2",
+    "@persistr/clif-plugin-settings": "^2.1.0",
+    "dotenv": "^8.2.0",
+    "luxon": "^1.25.0",
+    "project-name-generator": "^2.1.9"
+  }
+}
