@@ -1,13 +1,48 @@
 # Persistr CLI
-CLI for interacting with Persistr
 
-Available types of connection strings are:
-memory - in-memory database
-fs - file-system database in default location (~/.persistr.db)
-fs:/path/to/db - file-system database in custom location
-mysql://user@hostname:port/database - standard MySQL connection string
-postgresql://user@hostname:port/database - standard PostgreSQL connection string
-postgres://user@hostname:port/database - standard PostgreSQL connection string
-sqlite:/path/to/db - standard SQLite3 connection string
-mssql - Microsoft SQL Server
-oracledb - Oracle SQL
+CLI for interacting with Persistr Server
+
+## Getting Started
+
+Install the Persistr CLI:
+
+```
+npm install -g @persistr/cli
+```
+
+Run it:
+
+```
+persistr
+```
+
+You will get a list of available commands:
+
+```
+COMMANDS
+  access       manage user access                  
+  annotations  manage stream annotations           
+  db           manage databases                    
+  events       manage events                       
+  help         display help                        
+  ns           manage namespaces                   
+  server       manage connection to Persistr Server
+  streams      manage event streams                
+  user         login/logout
+```
+
+View help page for each command by using `help` on the command line:
+
+```
+persistr help db:list
+```
+
+Or by using the `-h` or `--help` command line options:
+
+```
+persistr db:list -h
+```
+
+```
+persistr db:list --help
+```
