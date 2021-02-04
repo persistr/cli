@@ -1,6 +1,6 @@
 {
   "name": "@persistr/cli",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "CLI for interacting with Persistr Server",
   "main": "./cli",
   "author": "Sasa Djolic <sasa.djolic@gmail.com> (https://www.linkedin.com/in/sasadjolic/)",
@@ -10,7 +10,7 @@
     "cli"
   ],
   "bin": {
-    "persistr": "./cli.js"
+    "persistr": "cli.js"
   },
   "repository": {
     "type": "git",
