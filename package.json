@@ -17,9 +17,9 @@
     "url": "https://github.com/persistr/cli.git"
   },
   "dependencies": {
-    "@persistr/clif": "^1.7.0",
+    "@persistr/clif": "^1.7.3",
     "@persistr/clif-plugin-json5": "^1.1.0",
-    "@persistr/clif-plugin-persistr": "^1.3.2",
+    "@persistr/clif-plugin-persistr": "^1.6.0",
     "@persistr/clif-plugin-settings": "^2.1.0",
     "dotenv": "^8.2.0",
     "luxon": "^1.25.0",
