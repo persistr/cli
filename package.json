@@ -1,6 +1,6 @@
 {
   "name": "@persistr/cli",
-  "version": "4.4.0",
+  "version": "4.4.1",
   "description": "CLI for interacting with Persistr Server",
   "main": "./cli",
   "author": "Sasa Djolic <sasa.djolic@gmail.com> (https://www.linkedin.com/in/sasadjolic/)",
