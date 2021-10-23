@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 require('dotenv').config()
-const cli = require('./lib')
+const cli = require('./lib').build()
 
 // Detect if we're running in the browser or on the command line.
 const isBrowser = typeof window !== 'undefined' && ({}).toString.call(window) === '[object Window]'
